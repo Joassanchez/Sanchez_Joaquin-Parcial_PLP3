@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Inmobiliaria</title>
+    <link rel="stylesheet" href="./js_css/js_estilos.css">
+    <script src="js_js/js_funciones.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestra Agencia Inmobiliaria</h1>
+        <img src="./js_img/js_logo.jpg" alt="Logo de la Agencia" width="200">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#propiedades">Propiedades</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="propiedades">
+            <h2>Propiedades Destacadas</h2>
+            <div class="carrusel">
+                <div class="carrusel-items" id="propiedades-lista"></div>
+                <button class="carrusel-boton" id="prev-btn">❮</button>
+                <button class="carrusel-boton" id="next-btn">❯</button>
+            </div>
+        </section>
+        
+        
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos asesoramiento personalizado para la compra y venta de propiedades.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="form-container">
+                <form id="form-contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Agencia Inmobiliaria. Sanchez Joaquin Sebastian</p>
+    </footer>
+</body>
+</html>
